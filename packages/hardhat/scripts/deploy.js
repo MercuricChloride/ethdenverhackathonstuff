@@ -22,7 +22,7 @@ const main = async () => {
   console.log(" \n")*/
 
   // deploy the contract with all the artworks forSale
-  const yourCollectible = await deploy("YourCollectible"/*,[ bytes32Array ]*/) // <-- add in constructor args like line 19 vvvv
+  const yourCollectible = await deploy("YourCollectible",['0x7C07D214a0B6D65E41E99Ae73ef2c1c4F7975A40']) // <-- add in constructor args like line 19 vvvv
 
   yourCollectible.transferOwnership("0x34aA3F359A9D614239015126635CE7732c18fDF3") //austingriffith.eth
 
